@@ -1,57 +1,47 @@
 :root{
     --primarycolor: rgb(20, 20, 20);
-    --secondarycolor: rgb(202, 198, 198);
+    --secondarycolor: rgb(214, 214, 214);
+}
+.cs-primary{
+    background-color: var(--primarycolor);
+}
+.cs-secondary{
+    background-color: var(--secondarycolor);
 }
 .cs-header{
-    height: 60px;
-    background-color: var(--primarycolor);
-    display: flex;
+    height: 50;
 }
 .cs-title{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    color: var(--secondarycolor);
-}
-.cs-title a{
-    color: var(--secondarycolor);
-    text-decoration: none;
+    width: 30%;
 }
 .cs-nav{
     display: flex;
-    width: 50%;
-    justify-content: center;
+    width: 70%;
     align-items: center;
+    justify-content: end;
 }
 .cs-nav a{
-    color: var(--secondarycolor);
     text-decoration: none;
-    margin: 1em;
 }
-.cs-container{
-    height: 820px;
+.cs-introduction{
+    height: 600px;
 }
-.cs-box-img{
-    height: 820px;
+.cs-introduction img{
+    height: 100%;
+    width: 100%;
     position: relative;
 }
-.cs-img{height: 100%; width: 100%; position: relative;}
-.cs-box-text{
-    position: absolute;
-    
+.border{
+    border: 1px solid pink;
 }
 
-/* About */
-.container1, .container2{
-    height: 400px;
-    width: 50%;
-}
-.container1{
 
-}
-.container2{
 
+.cs-contact-icon{
+    width: 20%;
+    height: 50px;
 }
-.cs-border{
-    border: 1px solid red;
+.cs-contact-text{
+    width: 80%;
+    border: 1px solid orange;
 }
