@@ -1,47 +1,91 @@
 :root{
-    --primarycolor: rgb(20, 20, 20);
-    --secondarycolor: rgb(214, 214, 214);
+    --primarycolor: rgb(39, 39, 39);
+    --secondarycolor: rgb(230, 230, 230);
+    --textcolor: teal ;
 }
-.cs-primary{
+.cs-bg-primary{
     background-color: var(--primarycolor);
 }
-.cs-secondary{
+.cs-bg-secondary{
     background-color: var(--secondarycolor);
 }
+.cs-font-primary{
+    color: var(--primarycolor);
+}
+.cs-font-secondary{
+    color: var(--secondarycolor);
+}
+.cs-textcolor{
+    color: var(--textcolor);
+}
+.cs-intro{
+    height: 950px;
+    position: relative;
+    background-image: url(imagies/background1.jpg);
+    background-size: 100% 100%;
+}
 .cs-header{
-    height: 50;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    position: absolute;
 }
 .cs-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 30%;
+    color: var(--textcolor);
 }
 .cs-nav{
     display: flex;
     width: 70%;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
 }
-.cs-nav a{
-    text-decoration: none;
+.cs-link{
+    color: var(--secondarycolor);
+    margin: 1em;
 }
-.cs-introduction{
-    height: 600px;
+.cs-button{
+    font-size: 23px;
+    color: var(--secondarycolor);
 }
-.cs-introduction img{
-    height: 100%;
-    width: 100%;
-    position: relative;
+.cs-link :hover{
+   color: var(--textcolor);
 }
-.border{
-    border: 1px solid pink;
+.cs-introcard{
+    position: absolute;
+    width: auto;
+    height: 125px;
+    top: 15%;
+    left: 10%;
+}
+.cs-carousel1{
+    width: 25%;
+}
+.cs-carousel2{
+    width: 75;
 }
 
 
 
-.cs-contact-icon{
-    width: 20%;
-    height: 50px;
+
+
+
+
+.cs-about{
+    width: 50%;
 }
-.cs-contact-text{
-    width: 80%;
-    border: 1px solid orange;
+
+
+
+
+
+
+
+
+
+.cs-border{
+    border: 1px solid red;
 }
