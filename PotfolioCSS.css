@@ -67,17 +67,35 @@
 .cs-carousel2{
     width: 75;
 }
-.cs-about, .cs-work{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.cs-aboutbox{
+    width: 80%;
+    height: auto;
+}
+.cs-aboutimg{
+    width: 25%;
+    height: 275px;
+}
+.cs-aboutimg img{
+    width: 100%;
+    height: 100%;
 }
 .cs-about{
+    width: 75%;
+    height: 275px;
     font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.cs-experience1{
+    width: 50%;
+}
+.cs-experience2{
+    width: 50%;
+}
+
 .cs-worklist{
     list-style: none;
-    
 }
-.cs-bar, .cs-bar1, .cs-bar2, .cs-bar3{
+.cs-bar1, .cs-bar2, .cs-bar3{
     height: 25px;
     border-radius: 10px;
 }
