@@ -1,10 +1,14 @@
 :root{
-    --primarycolor: rgb(39, 39, 39);
+    --primarycolor: rgb(26, 26, 26);
+    --primarycolor1:rgb(40, 40, 40);
     --secondarycolor: rgb(230, 230, 230);
     --textcolor: teal ;
 }
 .cs-bg-primary{
     background-color: var(--primarycolor);
+}
+.cs-bg-primary1{
+    background-color: var(--primarycolor1);
 }
 .cs-bg-secondary{
     background-color: var(--secondarycolor);
@@ -79,11 +83,15 @@
     width: 100%;
     height: 100%;
 }
+.cs-font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cs-about, .cs-experience1{
+    font-size: 20px;
+}
 .cs-about{
     width: 75%;
     height: 275px;
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .cs-experience1{
     width: 50%;
@@ -98,6 +106,7 @@
 .cs-bar1, .cs-bar2, .cs-bar3{
     height: 25px;
     border-radius: 10px;
+    text-align: end;
 }
 .cs-bar1, .cs-bar2, .cs-bar3{background-color: var(--textcolor);}
 .cs-bar1{
@@ -109,6 +118,20 @@
 .cs-bar3{
     width: 47.6%;
 }
+.cs-create-title p{
+    margin-top: -.75em;
+}
+.cs-create-box{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.card-img{
+    height: 200px;
+    width: 200px;
+}
+
+
 
 
 
