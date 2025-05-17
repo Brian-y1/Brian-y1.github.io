@@ -130,6 +130,14 @@
     height: 200px;
     width: 200px;
 }
+.cs-cardbutton{
+    font-size: 25px;
+    color: var(--textcolor);
+}
+.cs-cardlink{
+    margin: 1em;
+    color: var(--secondarycolor);
+}
 
 
 
