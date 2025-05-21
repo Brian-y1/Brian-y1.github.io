@@ -49,7 +49,7 @@
 }
 .cs-link{
     color: var(--secondarycolor);
-    margin: 1em;
+    margin: .5em;
 }
 .cs-button{
     font-size: 23px;
@@ -61,22 +61,16 @@
 .cs-introcard{
     position: absolute;
     width: auto;
-    height: 125px;
+    height: auto;
     top: 20%;
     left: 10%;
 }
-.cs-carousel1{
-    width: 25%;
-}
-.cs-carousel2{
-    width: 75;
-}
 .cs-aboutbox{
-    width: 80%;
+    width: 70%;
     height: auto;
 }
 .cs-aboutimg{
-    width: 25%;
+    width: 30%;
     height: 275px;
 }
 .cs-aboutimg img{
@@ -123,32 +117,70 @@
 }
 .cs-create-box{
     height: auto;
-    display: flex;
-    justify-content: center;
-}
-.card-img{
-    height: 200px;
-    width: 200px;
 }
 .cs-cardbutton{
     font-size: 25px;
     color: var(--textcolor);
 }
 .cs-cardlink{
-    margin: 1em;
     color: var(--secondarycolor);
 }
-
-
-
-
-
-
-
-
-
-
-
+.cs-contact1, .cs-contact2{
+    width: 50%;
+}
+.cs-contactimg{
+    width: 20%;
+    height: 50px;
+}
+.cs-contactimg img{
+    height: 100%;
+    width: 100%;
+}
+.cs-contactinfo{
+    width: 80%;
+}
+.cs-footer{
+    height: 150px;
+    display: flex;
+}
+.cs-footerinfo{
+    width: 50%;
+}
+.cs-footerinfo{
+    font-size: 20px;
+    color: var(--textcolor);
+}
+.cs-footersocial{
+    width: 50%;
+}
+.cs-social{
+    height: 50px;
+    width: 50px;
+}
+.cs-social img{
+    height: 100%;
+    width: 100%;
+}
 .cs-border{
     border: 1px solid red;
+}
+/* Media */
+@media only screen and (max-width: 768px){
+    .cs-header{flex-wrap: wrap;}
+    .cs-title{width: 100%;}
+    .cs-nav{width: 100%; justify-content: center;}
+    .cs-nav a:nth-child(1){margin-left: 5em;}
+    .cs-introcard{left: 5%;}
+    .cs-aboutbox{flex-wrap: wrap;}
+    .cs-aboutimg{width: 50%;}
+    .cs-about{width: 90%;}
+    .cs-experience1, .cs-experience2{width: 100%;}
+    .cs-contact1, .cs-contact2 {width: 95%;}
+}
+@media only screen and (max-width: 576px){
+    .cs-introcard{left: 20%;}
+    .cs-aboutimg{width: 70%;}
+    .cs-about{width: 100%; height: auto;}
+    .cs-footer{flex-wrap: wrap; height: auto;}
+    .cs-footersocial, .cs-footerinfo {width: 100%;}
 }
